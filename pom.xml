@@ -5,12 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zxpulse</groupId>
-    <artifactId>PokeApiApp</artifactId>
+    <artifactId>PokemonAPI</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>pokemon-info-service</module>
-        <module>pokemon-info-repository</module>
     </modules>
 
     <properties>
