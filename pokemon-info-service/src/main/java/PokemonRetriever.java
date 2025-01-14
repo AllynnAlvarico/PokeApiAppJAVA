@@ -44,7 +44,7 @@ public class PokemonRetriever {
                 PokemonName pokemon = allPokemonNames.get(i);
 
                 if (!pokemon.getPokemonName().contains("-")) {
-//                    logger.info("Retrieved Pokémon: {}", pokemon.getPokemonName());
+                    logger.info("Retrieved Pokémon: {}", pokemon.getPokemonName());
 
                     PokemonModel model = getEachPokemon(pokemon.getPokemonName());
                     if (model != null) {
@@ -54,8 +54,8 @@ public class PokemonRetriever {
                     }
 
                     long requestEndTime = System.currentTimeMillis();
-//                    logger.info("Time taken for {}: {} seconds", pokemon.getPokemonName(),
-//                            (requestEndTime - requestStartTime) / 1000.0);
+                    logger.info("Time taken for {}: {} seconds", pokemon.getPokemonName(),
+                            (requestEndTime - requestStartTime) / 1000.0);
                 }
             }
 
